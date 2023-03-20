@@ -1,0 +1,92 @@
+body {
+    background-color: black; 
+  }
+  
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #333, #fff);
+    z-index: -1;
+  }
+  
+
+section {
+    padding: 15%;
+    
+}
+.imagen-redondeada {
+    float: left; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    margin-right: 20px; 
+}
+.imagen-redondeada img {
+    
+    width: 50%; 
+    height: auto; 
+}
+.contenedor {
+    display: flex; 
+    align-items: center; 
+}
+.imagen-redondeada {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.imagen-redondeada img {
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+}
+.contenido-derecha {
+    flex: 1; 
+}
+
+h2 {
+    color: rgb(0, 0, 0); 
+    font-size: 50px;
+}
+
+p {
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: rgb(15, 15, 15);
+}
+
+.lista {
+    color: rgb(5, 5, 5);
+    font-weight: 600 ;
+    list-style-type: circle;
+
+}
+
+
+.botoncito {
+    background-color: rgba(255, 255, 255, 0.582);
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.bi-instagram {
+    font-size: 30px;
+    color: purple;
+}
+
+.bi-linkedin {
+    font-size: 30px;
+    color: rgb(0, 102, 255);
+}
